@@ -7,7 +7,7 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
-// import Link from "next/link";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -33,9 +33,9 @@ export default function Home() {
                     </DialogHeader>
                 </DialogContent>
             </Dialog>
-            {/* <Link href="/404" data-testid="redirect-link">
+            <Link href="/404" data-testid="redirect-link">
                 Redirect to 404
-            </Link> */}
+            </Link>
         </main>
     );
 }
