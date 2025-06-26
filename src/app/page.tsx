@@ -15,7 +15,7 @@ export default function Home() {
                 <DialogTrigger asChild>
                     <Button
                         type="button"
-                        id="dialog"
+                        data-testid="dialog-trigger"
                         className="cursor-pointer"
                     >
                         Open
